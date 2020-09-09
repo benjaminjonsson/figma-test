@@ -11,13 +11,12 @@
     margin-left: 80px;
     margin-right: 98px;
 }
+
 .logo-dot {
     color: #33A2E0;
 }
-h3, h4{
-    display: inline-block;
-}
-h4 {
+
+nav{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -29,25 +28,54 @@ h4 {
     color: #1B0A42;
     margin-top: 48px;
     margin-right: 38px;
+    margin: 5px;
 }
-.sign-up {
+
+.link {
+    color: #1B0A42;
+    margin-left: 40px;
+    margin-top: 48px;
+    text-decoration-line: none;
+    
+}
+
+.signin {
+    color: #1B0A42;
+    margin-left: 470px;
+    margin-top: 48px;
+    text-decoration-line: none;
+}
+.signup {
     width: 120px;
-    height: 59.65px;
-    left: 1412.26px;
-    top: 30px;
-    background: #33A2E0;
-    border-radius: 6px;
-    border-color: #33A2E0;  
+    height: 60px;
+    margin-left: 40px;
+    margin-right: 68px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 24px;
     /* identical to box height, or 150% */
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-top: 50px;
+    background-color: #33A2E0;
+    border-radius: 6px;
+    border-color:#33A2E0;
 }
+a:hover {
+    background-color: lightgrey;
+}
+button:hover {
+    background-color: rgb(55, 94, 221);
+    transition: 0.3s;
+}
+
+h3, nav{
+    display: inline-block;
+}
+
 .main-title {
     max-width: 495px;
     margin-left: 200px;
@@ -72,12 +100,10 @@ h4 {
     font-size: 20px;
     line-height: 32px;
     /* or 160% */
-
     letter-spacing: 0.02em;
-
     color: #9A9A9A;
-
 }
+
 .main-button {
     width: 152px;
     height: 63.82px;
@@ -92,12 +118,9 @@ h4 {
     font-size: 16px;
     line-height: 32px;
     /* or 200% */
-
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
-
 }
 section {
     display: inline-block;
